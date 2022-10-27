@@ -1,6 +1,5 @@
-let countEr = document.getElementById("count_er");
-
-console.log(countEr);
+let countEr = document.getElementById("count-er");
+let saveEr = document.getElementById("save-er");
 
 let count = 0;
 
@@ -14,4 +13,9 @@ function decrement() {
   count = count - 1;
   countEr.innerText = count;
   console.log(countEr);
+}
+
+function save() {
+  let countStr = count + " - "
+  saveEr.textContent += countStr
 }
