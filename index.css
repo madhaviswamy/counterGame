@@ -41,3 +41,14 @@ button {
 #decr_btn {
   background: maroon;
 }
+
+#save-btn {
+  background: darkblue;
+}
+
+p {
+  margin-top: 20px;
+  margin-bottom: 80px;
+  font-size: 40px;
+  color: chartreuse;
+}
