@@ -16,7 +16,7 @@ function decrement() {
 }
 
 function save() {
-  let countStr = count + " - "
+  let countStr = " - " + count
   saveEr.textContent += countStr
   countEr.textContent = 0;
   count = 0;
